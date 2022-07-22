@@ -1,0 +1,261 @@
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common things or utilities */
+body{
+    font-family: 'Poppins', sans-serif;}
+
+
+.container{display:flex;
+    background-color: #161616;
+    border-radius: 30px;
+    height: 380px;
+
+}
+
+.portion-one{
+width: 531px;
+height: 424px;
+margin-left: 246px;
+margin-top: -43px;
+}
+
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    
+}
+.para-one{
+    font-size: 20px;
+    color: #ffffff;
+}
+.btn-end{
+    display: block;
+    width: 180px;
+    height: 46px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 16px 24px;
+}
+
+.portion-two{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+/* section-2 */
+.container-two{display: flex;
+    margin-top: 30px;}
+
+aside{
+    width: 253px;
+    height: 229px;
+    background-color: #161616;                   
+    border-radius: 10px;}
+
+.side-nav{
+    padding-top: 25px;
+    height:200px;}
+
+    .aside-nav-one{
+        display: block;
+        margin-left: 42px;
+        margin-top: 2px;
+        padding: 12px 21px;
+        border-radius: 10px;
+        color: #161616;
+        font-size: 15px;
+        font-family: poppins;
+        font-weight:500px;}
+
+
+.aside-nav-two{
+    display: block;
+    margin-left: 42px;
+    margin-top: -160px;
+    padding: 12px 50px;
+    border-radius: 10px;
+    color: #161616;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight:500px;}
+
+.aside-nav-three{
+    display: block;
+    margin-left: 42px;
+    margin-top: -324px;
+    padding: 12px 68px;
+    border-radius: 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight:500px;}
+
+    .grid-align{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 75px;
+    margin-left:40px;}   
+
+.thumbnail{
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-left: 25px;
+    margin-right: 22px;
+}    
+
+    .thumbnail img{
+        width: 100%;}
+h3{
+    display: block;
+}
+
+.national-flags{
+    display: flex;
+margin-right: -20px;}
+
+
+.space{
+    margin-top:18px ;
+}
+
+.flag-germany{
+    margin-right: 15px;
+}
+
+
+.flag-france{
+    margin-left: 15px;
+}
+
+h2{
+    margin-top: -2px;
+    margin-left: -2px;}
+
+.match-shedule{
+    color:#4D4D4D;
+    margin-top: -19px;
+    margin-left: 54px;}
+
+    /* section-three-syle  */
+.container-three{
+    background-color: #161616;
+    height: 350px;
+    
+}
+
+.goal{color:#FFFFFF;
+    height: 180px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+hr{
+    color: rgba(255, 255, 255, 0.1);}
+
+    .foot-menu{
+        display: flex;
+        padding-left: 30px;
+        margin-left: 25%;
+        color: #B9B9B9;
+    }
+
+    .footer-gap{
+        padding-right: 10px;
+    }          
+    .social-media{
+        display: flex;
+        margin-top: -53px;
+        margin-left: 511px;}
+        
+        .social-media a{
+            text-decoration: none;
+            padding-left: 10px;
+            background-color: #FFFFFF;}
+
+            .social-media-link{
+                padding: 10px;}
+            
+/* media-quaries  */
+
+/* mobile */
+
+    /* smart-phone  */
+    @media screen and (max-width:688px){
+        .portion-two img{
+            width: 100%;
+        }
+        .container{
+          width:100%;
+            background-color: #161616;
+          display: flex;
+        }
+        
+    .grid-align{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+    
+    .ball{
+        animation-name: none;
+        display: hidden;
+    }
+    
+    .stage{
+        visibility: hidden;
+    }
+    .portion-two{
+        visibility: visible;
+        margin-top: 481px;
+        margin-left: -18px;
+    }
+    aside{
+        margin-left: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+    .container-two{
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .view{visibility: visible;
+        margin-left: 148px;
+    }
+
+    .match-shedule{
+        color:#4D4D4D;
+        margin-top: -19px;
+        margin-left: 54px;}
+    
+    
+    .container-three{
+        flex-direction: column;
+        height: 680px;
+    }
+    
+    .goal{
+        flex-direction: column;
+    }
+    .foot-menu{
+        flex-direction: column;
+    }
+    .social-media{
+        flex-direction: column;
+        margin-top: -117px;
+        
+    }
+    .social-media a{
+        margin-left: -473px;
+        padding: 0 142px;
+        margin-top: -2px;
+    }
+    }
+    
