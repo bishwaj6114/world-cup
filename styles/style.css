@@ -362,3 +362,73 @@ aside{
     margin-top: -2px;
 }
 }
+
+/* tablet  */
+
+@media screen and (min-widdth:688px),(max-width:992px) {
+    .thumbnail img{
+        width: 75%;
+    }
+    .container{
+      background-color: #161616;
+        display: flex;
+      }
+      
+  .grid-align{
+    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  }
+  
+  .ball{
+      animation-name: none;
+      display: hidden;
+  }
+  
+  .stage{
+      visibility: hidden;
+  }
+  .portion-two{
+      visibility: visible;
+      margin-top: 211px;
+      margin-left: -18px;
+  }
+  aside{
+      margin-left: 80px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+     
+  }
+  .container-two{
+      flex-direction: column;
+      margin-left: 15px;
+  }
+  .view{visibility: visible;
+      margin-left: 148px;
+  }
+  
+  
+  
+  .container-three{
+      flex-direction: column;
+      height: 680px;
+  }
+  
+  .goal{
+      flex-direction: column;
+  }
+  .foot-menu{
+      flex-direction: column;
+  }
+  .social-media{
+      flex-direction: column;
+      margin-top: -117px;
+      
+  }
+  .social-media a{
+      margin-left: -473px;
+      padding: 0 142px;
+      margin-top: -2px;
+  }
+  }
+}
